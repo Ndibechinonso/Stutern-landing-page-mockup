@@ -1,0 +1,156 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+.navbar {
+  background-color: rgb(27, 22, 66);
+}
+.dropdown-toggle::after {
+  display: none;
+}
+ .navbar .nav-item:hover .dropdown-menu{
+     display: block; 
+    } 
+.course-btn-bg {
+  background-color: rgb(26, 200, 187) !important;
+  border-color: rgb(26, 200, 187) !important;
+}
+.btn.btn-outline-secondary {
+  border: 2px solid rgb(255, 255, 255);
+}
+.intro {
+  background-color: rgb(27, 22, 66);
+  min-height: 100vh;
+}
+h1, h2 {
+  font-family: "Epilogue", sans-serif;
+}
+.intro h1 {
+  font-size: 64px;
+}
+.sub-header {
+  font-size: 48px;
+}
+.card {
+  border: none;
+}
+ p {
+  font-size: 12px;
+} 
+.size-14 {
+  font-size: 14px;
+}
+.font-weight-600 {
+  font-weight: 600;
+}
+.about {
+  min-height: 100vh;
+}
+.white-color {
+  color: rgb(230, 248, 249);
+}
+.plain-white {
+  color: rgb(255, 255, 255) !important;
+}
+.blue-color {
+  color: rgb(27, 22, 66);
+}
+.app-text-color {
+  color: rgb(230, 248, 249);
+}
+.app-header-color {
+  color: rgb(210, 208, 219);
+}
+.dark-blue {
+  color: rgb(11, 9, 28) !important;
+}
+.app-portal-color {
+  color: rgb(27, 211, 198);
+}
+.nav-drop-color {
+  color: rgb(10, 10, 10) !important;
+}
+.alumni-name {
+  color: rgb(245, 245, 245);
+}
+.faq-link {
+  color: #363636 !important;
+}
+.footer-color {
+  color: rgb(230, 230, 230) !important;
+  text-decoration: none;
+}
+.footer-header {
+  color: rgb(121, 116, 146);
+}
+.light-blue {
+  background-color: rgb(27, 211, 198);
+}
+.rep-btn {
+  background-color: rgb(23, 19, 56) !important;
+}
+.bg-white {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255) !important;
+}
+.unique-card {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  border: none !important;
+}
+.app-portal-bg {
+  background-color: rgb(51, 46, 83) !important;
+}
+.card-bg-color {
+  background-color: rgb(27, 22, 66) !important;
+}
+.hire-btn {
+  background-color: rgb(249, 249, 249) !important;
+}
+a {
+  cursor: pointer;
+}
+.courses a {
+  font-family: "Epilogue", sans-serif;
+}
+.rounded-img {
+  border-radius: 50%;
+}
+.rounded-border {
+  border-radius: 15px;
+}
+.payment-card {
+  border: 1px solid rgb(74, 74, 74) !important;
+  border-radius: 15px;
+}
+
+@media only screen and (max-width: 991px) {
+   .navbar .nav-item .dropdown-menu {
+    display: block;
+  }
+  .navbar-nav  {
+    background-color: white;
+  }
+  .link-res a {
+    color: rgb(10, 10, 10) !important;
+  }
+  .dropdown-item:hover,
+  .course-link:hover {
+    color: rgb(50, 115, 220) !important;
+  }
+  .course-icon {
+    position: relative;
+    left: 83%;
+  }
+  .course-icon2 {
+    position: relative;
+    left: 72%;
+  }
+  .course-icon3 {
+    position: relative;
+    left: 78%;
+  }
+  .log-in {
+    display: none;
+  }
+  .faq {
+    font-size: 32px;
+  }}
